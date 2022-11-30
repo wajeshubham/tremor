@@ -11,14 +11,14 @@ import {
     spacing,
 } from 'lib';
 
-export type WrapperProporionTypes = {
+export type WrapperProportionTypes = {
     paddingLeft: string,
     paddingRight: string,
     paddingTop: string,
     paddingBottom: string,
 }
 
-export const wrapperProportions: {[size: string]: WrapperProporionTypes} = {
+export const wrapperProportions: {[size: string]: WrapperProportionTypes} = {
     xs: {
         paddingLeft: spacing.xs.paddingLeft,
         paddingRight: spacing.xs.paddingRight,
