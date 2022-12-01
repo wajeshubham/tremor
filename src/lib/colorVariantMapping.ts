@@ -5,7 +5,7 @@ export type ColorTypes = {
     hoverTextColor: string,
     borderColor: string,
     hoverBorderColor: string,
-    ringRolor: string, // legacy pop
+    ringRolor: string, // legacy prop
     ringColor: string,
     hoverRingColor: string,
     divideColor: string,
